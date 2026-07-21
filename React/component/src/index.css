@@ -1,0 +1,13 @@
+.card{
+  background-color: blue;
+  height: 80px;
+  padding: 20px;
+  margin: 5px;
+}
+
+.nav{
+  background-color: green;
+  height: 80px;
+  padding: 20px;
+  margin: 5px;
+}
