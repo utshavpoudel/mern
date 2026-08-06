@@ -1,12 +1,20 @@
 import React from 'react'
 import RightCard from './RightCard'
 
-const RightContent = () => {
+const RightContent = (props) => {
   return (
-    <div className='h-full w-3/4 bg-blue-600 p-6'>
-      <RightCard />
+    <div className='h-full w-3/4  p-6 flex flex-nowrap gap-10 overflow-x-auto rounded-4xl'>
+      {props.users.map(function(){
+     return <RightCard />
+            
+        
+      })}
+
     </div>
   )
-}
+ }
+  
+
+
 
 export default RightContent
